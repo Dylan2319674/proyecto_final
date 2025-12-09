@@ -37,6 +37,9 @@ namespace login
 	if (usuario == "admin" && contraseña == "123")
 	{
 	MessageBox.Show("Inicio de sesion exitoso");
+	Principal FormularioPrincipal = new Principal();
+	FormularioPrincipal.Show();
+	this.Hide();
 	}
 	else
 	{	
