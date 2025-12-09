@@ -28,5 +28,7 @@ namespace login
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+	
 	}
 }
