@@ -37,11 +37,17 @@ namespace login
 		private void InitializeComponent()
 		{
 			this.btnRegresar = new System.Windows.Forms.Button();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.lblRadio = new System.Windows.Forms.Label();
+			this.txtRadio = new System.Windows.Forms.TextBox();
+			this.btnCalcular = new System.Windows.Forms.Button();
+			this.lblResultado = new System.Windows.Forms.Label();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// btnRegresar
 			// 
-			this.btnRegresar.Location = new System.Drawing.Point(94, 179);
+			this.btnRegresar.Location = new System.Drawing.Point(2, 285);
 			this.btnRegresar.Name = "btnRegresar";
 			this.btnRegresar.Size = new System.Drawing.Size(75, 23);
 			this.btnRegresar.TabIndex = 0;
@@ -49,16 +55,68 @@ namespace login
 			this.btnRegresar.UseVisualStyleBackColor = true;
 			this.btnRegresar.Click += new System.EventHandler(this.BtnRegresarClick);
 			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Location = new System.Drawing.Point(2, 0);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(94, 91);
+			this.pictureBox1.TabIndex = 1;
+			this.pictureBox1.TabStop = false;
+			// 
+			// lblRadio
+			// 
+			this.lblRadio.Location = new System.Drawing.Point(41, 118);
+			this.lblRadio.Name = "lblRadio";
+			this.lblRadio.Size = new System.Drawing.Size(100, 23);
+			this.lblRadio.TabIndex = 2;
+			this.lblRadio.Text = "Radio";
+			// 
+			// txtRadio
+			// 
+			this.txtRadio.Location = new System.Drawing.Point(133, 118);
+			this.txtRadio.Name = "txtRadio";
+			this.txtRadio.Size = new System.Drawing.Size(100, 20);
+			this.txtRadio.TabIndex = 3;
+			// 
+			// btnCalcular
+			// 
+			this.btnCalcular.Location = new System.Drawing.Point(158, 191);
+			this.btnCalcular.Name = "btnCalcular";
+			this.btnCalcular.Size = new System.Drawing.Size(75, 23);
+			this.btnCalcular.TabIndex = 4;
+			this.btnCalcular.Text = "Calcular";
+			this.btnCalcular.UseVisualStyleBackColor = true;
+			this.btnCalcular.Click += new System.EventHandler(this.BtnCalcularClick);
+			// 
+			// lblResultado
+			// 
+			this.lblResultado.Location = new System.Drawing.Point(148, 259);
+			this.lblResultado.Name = "lblResultado";
+			this.lblResultado.Size = new System.Drawing.Size(100, 23);
+			this.lblResultado.TabIndex = 5;
+			// 
 			// Circunferencia
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.ClientSize = new System.Drawing.Size(343, 320);
+			this.Controls.Add(this.lblResultado);
+			this.Controls.Add(this.btnCalcular);
+			this.Controls.Add(this.txtRadio);
+			this.Controls.Add(this.lblRadio);
+			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.btnRegresar);
 			this.Name = "Circunferencia";
 			this.Text = "Circunferencia";
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
+			this.PerformLayout();
 		}
+		private System.Windows.Forms.Label lblResultado;
+		private System.Windows.Forms.Button btnCalcular;
+		private System.Windows.Forms.TextBox txtRadio;
+		private System.Windows.Forms.Label lblRadio;
+		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Button btnRegresar;
 	}
 }
