@@ -61,7 +61,6 @@ C:\Users\CC2_PC35\proyecto\login\obj\Debug\login.pdb
 C:\Users\CC1_PC43\proyecto\login\bin\Debug\login.exe
 C:\Users\CC1_PC43\proyecto\login\bin\Debug\login.pdb
 C:\Users\CC1_PC43\proyecto\login\obj\Debug\login.csprojResolveAssemblyReference.cache
-C:\Users\CC1_PC43\proyecto\login\obj\Debug\login.Boleta.resources
 C:\Users\CC1_PC43\proyecto\login\obj\Debug\login.Circunferencia.resources
 C:\Users\CC1_PC43\proyecto\login\obj\Debug\login.Cuadrado.resources
 C:\Users\CC1_PC43\proyecto\login\obj\Debug\login.Cubo.resources

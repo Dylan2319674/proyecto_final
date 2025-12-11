@@ -130,9 +130,6 @@
     <EmbeddedResource Include="Acerca.resx">
       <DependentUpon>Acerca.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Boleta.resx">
-      <DependentUpon>Boleta.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Circunferencia.resx">
       <DependentUpon>Circunferencia.cs</DependentUpon>
     </EmbeddedResource>

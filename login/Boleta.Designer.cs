@@ -1,8 +1,8 @@
 ﻿/*
  * Creado por SharpDevelop.
- * Usuario: CC1_PC44
- * Fecha: 10/12/2025
- * Hora: 02:21 p. m.
+ * Usuario: CC1_PC43
+ * Fecha: 11/12/2025
+ * Hora: 08:53 p. m.
  * 
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
@@ -36,40 +36,12 @@ namespace login
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.btnRegresar = new System.Windows.Forms.Button();
-			this.txtasd = new System.Windows.Forms.TextBox();
-			this.SuspendLayout();
-			// 
-			// btnRegresar
-			// 
-			this.btnRegresar.Location = new System.Drawing.Point(75, 130);
-			this.btnRegresar.Name = "btnRegresar";
-			this.btnRegresar.Size = new System.Drawing.Size(75, 23);
-			this.btnRegresar.TabIndex = 0;
-			this.btnRegresar.Text = "Regresar";
-			this.btnRegresar.UseVisualStyleBackColor = true;
-			this.btnRegresar.Click += new System.EventHandler(this.BtnRegresarClick);
-			// 
-			// txtasd
-			// 
-			this.txtasd.Location = new System.Drawing.Point(62, 66);
-			this.txtasd.Name = "txtasd";
-			this.txtasd.Size = new System.Drawing.Size(100, 20);
-			this.txtasd.TabIndex = 1;
 			// 
 			// Boleta
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 261);
-			this.Controls.Add(this.txtasd);
-			this.Controls.Add(this.btnRegresar);
-			this.Name = "Boleta";
 			this.Text = "Boleta";
-			this.ResumeLayout(false);
-			this.PerformLayout();
+			this.Name = "Boleta";
 		}
-		private System.Windows.Forms.TextBox txtasd;
-		private System.Windows.Forms.Button btnRegresar;
 	}
 }

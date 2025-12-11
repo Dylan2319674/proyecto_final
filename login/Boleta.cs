@@ -1,8 +1,8 @@
 ﻿/*
  * Creado por SharpDevelop.
- * Usuario: CC1_PC44
- * Fecha: 10/12/2025
- * Hora: 02:21 p. m.
+ * Usuario: CC1_PC43
+ * Fecha: 11/12/2025
+ * Hora: 08:53 p. m.
  * 
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
@@ -27,13 +27,6 @@ namespace login
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
-		}
-		
-		void BtnRegresarClick(object sender, EventArgs e)
-		{
-			Principal FormularioPrincipal = new Principal();
-			FormularioPrincipal.Show();
-			this.Hide();
 		}
 	}
 }
