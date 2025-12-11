@@ -140,5 +140,12 @@ namespace login
 			FormularioEmpleados.Show();
 			this.Hide();
 		}
+		
+		void AcercaDeToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Acerca FormularioAcerca = new Acerca();
+			FormularioAcerca.Show();
+			this.Hide();
+		}
 	}
 }
