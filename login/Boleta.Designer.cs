@@ -37,6 +37,7 @@ namespace login
 		private void InitializeComponent()
 		{
 			this.btnRegresar = new System.Windows.Forms.Button();
+			this.txtasd = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
 			// btnRegresar
@@ -49,16 +50,26 @@ namespace login
 			this.btnRegresar.UseVisualStyleBackColor = true;
 			this.btnRegresar.Click += new System.EventHandler(this.BtnRegresarClick);
 			// 
+			// txtasd
+			// 
+			this.txtasd.Location = new System.Drawing.Point(62, 66);
+			this.txtasd.Name = "txtasd";
+			this.txtasd.Size = new System.Drawing.Size(100, 20);
+			this.txtasd.TabIndex = 1;
+			// 
 			// Boleta
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.Controls.Add(this.txtasd);
 			this.Controls.Add(this.btnRegresar);
 			this.Name = "Boleta";
 			this.Text = "Boleta";
 			this.ResumeLayout(false);
+			this.PerformLayout();
 		}
+		private System.Windows.Forms.TextBox txtasd;
 		private System.Windows.Forms.Button btnRegresar;
 	}
 }
