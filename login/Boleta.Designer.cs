@@ -61,10 +61,10 @@ namespace login
 			// 
 			// btnRegresar
 			// 
-			this.btnRegresar.Location = new System.Drawing.Point(823, 239);
+			this.btnRegresar.Location = new System.Drawing.Point(788, 239);
 			this.btnRegresar.Margin = new System.Windows.Forms.Padding(4);
 			this.btnRegresar.Name = "btnRegresar";
-			this.btnRegresar.Size = new System.Drawing.Size(100, 28);
+			this.btnRegresar.Size = new System.Drawing.Size(135, 54);
 			this.btnRegresar.TabIndex = 0;
 			this.btnRegresar.Text = "Regresar";
 			this.btnRegresar.UseVisualStyleBackColor = true;
