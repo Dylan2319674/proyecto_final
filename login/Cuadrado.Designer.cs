@@ -37,11 +37,15 @@ namespace login
 		private void InitializeComponent()
 		{
 			this.btnRegresar = new System.Windows.Forms.Button();
+			this.label1 = new System.Windows.Forms.Label();
+			this.txtLado = new System.Windows.Forms.TextBox();
+			this.btnCalcular = new System.Windows.Forms.Button();
+			this.lblResultado = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// btnRegresar
 			// 
-			this.btnRegresar.Location = new System.Drawing.Point(106, 152);
+			this.btnRegresar.Location = new System.Drawing.Point(147, 150);
 			this.btnRegresar.Name = "btnRegresar";
 			this.btnRegresar.Size = new System.Drawing.Size(75, 23);
 			this.btnRegresar.TabIndex = 0;
@@ -49,16 +53,60 @@ namespace login
 			this.btnRegresar.UseVisualStyleBackColor = true;
 			this.btnRegresar.Click += new System.EventHandler(this.BtnRegresarClick);
 			// 
+			// label1
+			// 
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(41, 22);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(100, 25);
+			this.label1.TabIndex = 1;
+			this.label1.Text = "Lado:";
+			// 
+			// txtLado
+			// 
+			this.txtLado.Location = new System.Drawing.Point(136, 21);
+			this.txtLado.Name = "txtLado";
+			this.txtLado.Size = new System.Drawing.Size(100, 20);
+			this.txtLado.TabIndex = 2;
+			// 
+			// btnCalcular
+			// 
+			this.btnCalcular.Location = new System.Drawing.Point(147, 64);
+			this.btnCalcular.Name = "btnCalcular";
+			this.btnCalcular.Size = new System.Drawing.Size(75, 23);
+			this.btnCalcular.TabIndex = 3;
+			this.btnCalcular.Text = "Calcular";
+			this.btnCalcular.UseVisualStyleBackColor = true;
+			this.btnCalcular.Click += new System.EventHandler(this.BtnCalcularClick);
+			// 
+			// lblResultado
+			// 
+			this.lblResultado.Location = new System.Drawing.Point(147, 112);
+			this.lblResultado.Name = "lblResultado";
+			this.lblResultado.Size = new System.Drawing.Size(112, 23);
+			this.lblResultado.TabIndex = 4;
+			this.lblResultado.Text = "Area:";
+			// 
 			// Cuadrado
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.Controls.Add(this.lblResultado);
+			this.Controls.Add(this.btnCalcular);
+			this.Controls.Add(this.txtLado);
+			this.Controls.Add(this.label1);
 			this.Controls.Add(this.btnRegresar);
 			this.Name = "Cuadrado";
 			this.Text = "Cuadrado";
 			this.ResumeLayout(false);
+			this.PerformLayout();
 		}
+		private System.Windows.Forms.Label lblResultado;
+		private System.Windows.Forms.Button btnCalcular;
+		private System.Windows.Forms.TextBox txtLado;
+		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button btnRegresar;
 	}
 }
