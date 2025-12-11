@@ -46,5 +46,10 @@ namespace login
 	MessageBox.Show("Usuario o contraseña incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 	}
 		}
+		
+		void TxtUsuarioTextChanged(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }

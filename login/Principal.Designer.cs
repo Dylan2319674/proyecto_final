@@ -62,6 +62,7 @@ namespace login
 			this.boletaDeCalificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.postresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.empleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -75,7 +76,8 @@ namespace login
 									this.conversionesToolStripMenuItem,
 									this.boletaDeCalificacionesToolStripMenuItem,
 									this.postresToolStripMenuItem,
-									this.empleadosToolStripMenuItem});
+									this.empleadosToolStripMenuItem,
+									this.acercaDeToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
 			this.menuStrip1.Size = new System.Drawing.Size(974, 24);
@@ -274,10 +276,18 @@ namespace login
 			this.empleadosToolStripMenuItem.Text = "Empleados";
 			this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.EmpleadosToolStripMenuItemClick);
 			// 
+			// acercaDeToolStripMenuItem
+			// 
+			this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
+			this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+			this.acercaDeToolStripMenuItem.Text = "Acerca de...";
+			this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.AcercaDeToolStripMenuItemClick);
+			// 
 			// Principal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.ClientSize = new System.Drawing.Size(974, 260);
 			this.Controls.Add(this.menuStrip1);
 			this.MainMenuStrip = this.menuStrip1;
@@ -288,6 +298,7 @@ namespace login
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem empleadosToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem postresToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem boletaDeCalificacionesToolStripMenuItem;
